@@ -8,6 +8,8 @@ body{
   background-color: #07BEB8;
   color: rgba(0, 0, 0, 0.55);
 }
+@media (max-width:768px){
+
 .App{
   width: 100%;
 }
@@ -50,6 +52,7 @@ h1{
   background-color: transparent;
   padding: 2rem 0;
 }
+
 .card{
   width: 290px;
   height: 200px;
@@ -178,6 +181,8 @@ h1{
   background-color: transparent;
 }
 
+
+}
 @media (max-width:320px){
 
   .Navbar__container{
