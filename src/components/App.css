@@ -166,7 +166,7 @@ h1{
   display: flex;   
 }
 .container__text{
-  width: 220px;
+  width:220px;
 }
 .input__container{
   display: flex;
@@ -176,6 +176,32 @@ h1{
   border-radius: 5px;
   margin-top: 40px;
   background-color: transparent;
+}
+
+@media (max-width:320px){
+
+  .Navbar__container{
+    height: 150px;
+  }
+  .Navbar__container button{
+    width: 80px;
+  }
+
+.form{
+ width: 318px;
+ height: 500px;
+ align-items: flex-start;
+ gap:5px;
+  }
+.container__text{
+ width:250px;
+}
+
+.input__container{
+ display: flex;
+ flex-direction: column;
+}
+
 }
 
 
